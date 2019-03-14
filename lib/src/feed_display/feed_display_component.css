@@ -1,0 +1,34 @@
+.feed-display {
+    color: white;
+    font-family: "Times New Roman";
+    vertical-align: top;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.display-content {
+    padding-left: 10pt;
+    padding-right: 10pt;
+}
+
+.caption {
+    font-style: italic;
+}
+
+.separator {
+    width: 300pt;
+}

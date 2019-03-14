@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:firebase/firebase.dart';
+import 'package:picturesque_web/src/data/feed_store.dart';
 import 'package:picturesque_web/src/data/model.dart';
 
 enum PhotoFeedUpdate {
@@ -9,7 +10,7 @@ enum PhotoFeedUpdate {
 
 class PhotoFeed {
   final String _feedName;
-  final Database _db;
+  final FeedStore _store;
 
   final List<Feed> _feed = List();
   final List<StreamSubscription<QueryEvent>> _subscriptions = List();
@@ -20,10 +21,10 @@ class PhotoFeed {
 
   List<Feed> get feed => _feed;
 
-  PhotoFeed(this._feedName, this._db);
+  PhotoFeed(this._feedName, this._store);
 
   void initialize() {
-    var ref = _db.ref(this._feedName);
+    var ref = _store.feed(this._feedName);
 
     var subscriptionAdd = ref.onChildAdded.listen((e) {
       String key = e.snapshot.key;

@@ -1,0 +1,18 @@
+.itemContainer {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    max-height: 200pt;
+    width: 100%;
+    object-fit: cover;
+}
+
+.caption {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    background-color: rgba(120, 120, 120, 0.2);
+    color: rgb(192, 192, 192);
+}

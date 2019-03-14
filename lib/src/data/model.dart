@@ -25,12 +25,19 @@ class Feed {
 
   factory Feed.fromMap(String id, String feedName, Map values) {
     var title = values['title'];
-    var subHeader = values['subHeader'];
+    var subHeader = values['subheader'];
     var updated = DateTime.fromMillisecondsSinceEpoch(values['updated']);
     var url = values['url'];
 
-    List<dynamic> images = values['images'];
-    var feedImages = images.map((img) => FeedImage.fromMap(img));
+    var feedImages = List<FeedImage>();
+
+    if (values.containsKey('images')) {
+      List images = values['images'];
+      images.forEach((value) {
+        var img = FeedImage.fromMap(value);
+        feedImages.add(img);
+      });
+    }
 
     return Feed(feedName, id, title, subHeader, url, updated, feedImages);
   }

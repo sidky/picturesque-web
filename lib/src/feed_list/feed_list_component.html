@@ -1,0 +1,5 @@
+<ul class="list">
+    <li *ngFor="let feed of feeds">
+        <feed-list-item [feed]="feed" (click)="selectFeed(feed)"></feed-list-item>
+    </li>
+</ul>

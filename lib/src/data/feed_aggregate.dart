@@ -7,6 +7,8 @@ class FeedAggregate {
   final List<PhotoFeed> _feeds = List();
   final List<StreamSubscription<PhotoFeedUpdate>> _subscriptions = List();
 
+  List<Feed> _aggregatedFeed = List();
+
   final StreamController<List<Feed>> _onUpdated = StreamController.broadcast();
 
   Stream<List<Feed>> get onUpdated => _onUpdated.stream;
@@ -17,15 +19,23 @@ class FeedAggregate {
   }
 
   void _buildFeed() {
-    List<Feed> feeds = List();
+    List<Feed> newFeed = List();
 
-    _feeds.forEach((f) => feeds.addAll(f.feed));
-    feeds.sort((f1, f2) => f2.updatedAt.compareTo(f1.updatedAt));
+    _feeds.forEach((f) => newFeed.addAll(f.feed));
+    newFeed.sort((f1, f2) => f2.updatedAt.compareTo(f1.updatedAt));
 
-    _onUpdated.add(feeds);
+    feeds = newFeed;
   }
 
   void finalize() {
     _subscriptions.forEach((f) => f.cancel());
   }
+
+  List<Feed> get feeds => _aggregatedFeed;
+
+  set feeds(List<Feed> f) {
+    _aggregatedFeed = f;
+    _onUpdated.add(f);
+  }
+
 }
