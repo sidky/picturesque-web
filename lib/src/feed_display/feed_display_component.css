@@ -1,6 +1,6 @@
 .feed-display {
     color: white;
-    font-family: "Times New Roman";
+    font-family: "Times New Roman", serif;
     vertical-align: top;
 
     margin: 0;
@@ -18,6 +18,10 @@ li {
 ul {
     margin: 0;
     padding: 0;
+}
+
+img {
+    object-fit: cover;
 }
 
 .display-content {
