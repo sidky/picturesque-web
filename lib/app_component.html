@@ -5,7 +5,7 @@
 </div>
 <div class="feed-content">
     <div style="width: 100%; height: 100%;">
-        <feed-display [feed]="selectedFeed"></feed-display>
+        <feed-display [feed]="selectedFeed" (onOpenSlideShow)="openSlideShow($event)"></feed-display>
     </div>
 </div>
-<div style="position: absolute; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.7)" *ngIf="showSlideShow"></div>
+<feed-slide-show *ngIf="showSlideShow" [selection]="slideShowSelection" (onClose)="closeSlideShow()"></feed-slide-show>

@@ -16,3 +16,13 @@ img {
     background-color: rgba(120, 120, 120, 0.2);
     color: rgb(192, 192, 192);
 }
+
+.icon {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+}

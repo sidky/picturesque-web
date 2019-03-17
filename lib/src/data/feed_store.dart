@@ -1,5 +1,6 @@
 import 'package:angular/angular.dart';
 import 'package:firebase/firebase.dart';
+import 'package:picturesque_web/src/data/feed_list.dart';
 
 import 'package:picturesque_web/src/secret.dart';
 
@@ -29,4 +30,14 @@ class FeedStore {
   );
 
   feed(String feedName) => this._db.ref(feedName);
+
+  DatabaseReference feedList() => this._db.ref("feed:list");
+
+  Future<FeedList> getAllFeeds() async {
+    var e = await this._db.ref("feed:list").onValue.first;
+
+    var feedListMap = e.snapshot.val();
+
+    return FeedList.fromMap(feedListMap);
+  }
 }

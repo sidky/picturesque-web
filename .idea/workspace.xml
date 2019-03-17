@@ -5,28 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5b1c9b1e-bb03-461a-b797-a1c219ebe90e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/service/feed_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/service/focus_directive.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/app_component.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_component.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/app_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/app_component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/data/feed_aggregate.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/data/feed_aggregate.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/data/feed_store.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/data/feed_store.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/data/model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/data/model.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/src/data/photo_feed.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/data/photo_feed.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.css" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/data/feed_list.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.html" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/service/feed_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/service/feed_service.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/todo_list/todo_list_component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/todo_list/todo_list_component.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/todo_list/todo_list_component.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/todo_list/todo_list_service.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,68 +46,13 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/main.dart">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app_component.css">
+        <entry file="file://$PROJECT_DIR$/lib/src/data/feed_aggregate.dart">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/app_component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="119" selection-start-line="10" selection-start-column="119" selection-end-line="10" selection-end-column="119" />
+            <state relative-caret-position="225">
+              <caret line="15" column="18" lean-forward="true" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="e#0#20#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/feed_display/feed_display_component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/feed_display/feed_display_component.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -113,24 +60,79 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+            <state relative-caret-position="60">
+              <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.dart">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.html">
+        <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_component.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="74" lean-forward="true" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/data/photo_feed.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/data/feed_list.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/src/data/feed_store.dart">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,9 +143,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Dart File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -151,6 +153,11 @@
     <findStrings>
       <find>my-app</find>
       <find>400</find>
+      <find>unfoc</find>
+      <find>scr</find>
+      <find>jm</find>
+      <find>parse</find>
+      <find>big</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -159,34 +166,39 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pubspec.yaml" />
         <option value="$PROJECT_DIR$/lib/src/data/model.go.dart" />
         <option value="$PROJECT_DIR$/lib/src/secret.dart" />
-        <option value="$PROJECT_DIR$/lib/src/data/photo_feed.dart" />
-        <option value="$PROJECT_DIR$/lib/src/data/feed_store.dart" />
         <option value="$PROJECT_DIR$/lib/src/data/feed_aggregate.dart" />
-        <option value="$PROJECT_DIR$/lib/src/service/feed_service.dart" />
         <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_item.html" />
         <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_item.dart" />
         <option value="$PROJECT_DIR$/lib/src/feed_display/feed_display.dart" />
         <option value="$PROJECT_DIR$/lib/src/service/app_service.dart" />
-        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.dart" />
-        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.html" />
         <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.dart" />
-        <option value="$PROJECT_DIR$/lib/src/data/model.dart" />
-        <option value="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.dart" />
-        <option value="$PROJECT_DIR$/web/index.html" />
         <option value="$PROJECT_DIR$/web/styles.css" />
         <option value="$PROJECT_DIR$/lib/app_component.css" />
-        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.css" />
-        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.css" />
-        <option value="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.css" />
-        <option value="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.html" />
-        <option value="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.dart" />
-        <option value="$PROJECT_DIR$/lib/app_component.html" />
         <option value="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.html" />
+        <option value="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.css" />
+        <option value="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.dart" />
+        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.dart" />
+        <option value="$PROJECT_DIR$/lib/src/service/focus_directive.dart" />
         <option value="$PROJECT_DIR$/lib/app_component.dart" />
+        <option value="$PROJECT_DIR$/lib/app_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.css" />
+        <option value="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.dart" />
+        <option value="$PROJECT_DIR$/web/index.html" />
+        <option value="$PROJECT_DIR$/pubspec.yaml" />
+        <option value="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/data/model.dart" />
+        <option value="$PROJECT_DIR$/lib/src/feed_display/feed_display_component.dart" />
+        <option value="$PROJECT_DIR$/lib/src/data/feed_list.dart" />
+        <option value="$PROJECT_DIR$/lib/src/data/photo_feed.dart" />
+        <option value="$PROJECT_DIR$/lib/src/data/feed_store.dart" />
+        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_component.css" />
+        <option value="$PROJECT_DIR$/lib/src/service/feed_service.dart" />
+        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.html" />
+        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.dart" />
+        <option value="$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.css" />
       </list>
     </option>
   </component>
@@ -245,14 +257,14 @@
               <item name="picturesque-web" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="feed_slideshow" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="picturesque-web" type="b2602c69:ProjectViewProjectNode" />
               <item name="picturesque-web" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="todo_list" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="picturesque-web" type="b2602c69:ProjectViewProjectNode" />
@@ -308,24 +320,32 @@
       <updated>1552284540307</updated>
       <workItem from="1552284541591" duration="1700000" />
       <workItem from="1552296397978" duration="21000" />
-      <workItem from="1552296446511" duration="28357000" />
+      <workItem from="1552296446511" duration="52830000" />
     </task>
+    <task id="LOCAL-00001" summary="Fit photo in display pane">
+      <created>1552625701530</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552625701531</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30078000" />
+    <option name="totallyTimeSpent" value="54551000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="2560" height="1413" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12380573" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49881235" visible="true" weight="0.12380573" />
+      <window_info id="Structure" order="1" sideWeight="0.5011876" side_tool="true" weight="0.12380573" />
       <window_info id="DB Browser" order="2" />
       <window_info id="Project Explorer" order="3" />
-      <window_info id="Job Explorer" order="4" />
+      <window_info id="Job Explorer" order="4" weight="0.32961783" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Dart Dev Server" visible="true" weight="0.32961783" />
+      <window_info active="true" anchor="bottom" id="Dart Dev Server" visible="true" weight="0.32961783" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32961783" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -336,7 +356,7 @@
       <window_info anchor="bottom" id="Console" order="7" />
       <window_info anchor="bottom" id="Dart Analysis" order="8" weight="0.32882166" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32961783" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
@@ -352,6 +372,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fit photo in display pane" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fit photo in display pane" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/lib/src/secret/secret.dart" />
     <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/angular-5.2.0/lib/src/core/di/decorators.dart">
@@ -365,13 +389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -405,30 +422,240 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_component.dart">
+    <entry file="file://$PROJECT_DIR$/web/favicon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/todo_list/todo_list_component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="22" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="135">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/main.dart">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/app_component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/angular-5.2.0/lib/src/core/metadata.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/angular-5.2.0/lib/src/core/metadata/lifecycle_hooks.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="635">
+          <caret line="437" column="84" lean-forward="true" selection-start-line="437" selection-start-column="12" selection-end-line="437" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/service/focus_directive.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
           <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/service/feed_service.dart">
+    <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        <state relative-caret-position="735">
+          <caret line="49" column="16" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="16" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.dart">
+    <entry file="file://$PROJECT_DIR$/lib/app_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_component.dart">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/phrase.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="184" column="16" selection-start-line="184" selection-start-column="16" selection-end-line="184" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_display/feed_display_component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="5" lean-forward="true" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/angular-5.2.0/lib/src/core/linker/element_ref.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/dart/lib/html/dart2js/html_dart2js.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="12677" column="8" selection-start-line="12677" selection-start-column="5" selection-end-line="12677" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pubspec.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="132" lean-forward="true" selection-start-column="132" selection-end-column="132" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_display/feed_display_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="58" selection-start-line="2" selection-start-column="58" selection-end-line="2" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/intl-0.15.7/lib/src/date_format_internal.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="55" column="8" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/intl-0.15.7/lib/src/intl/date_format.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="626" column="43" lean-forward="true" selection-start-line="626" selection-start-column="43" selection-end-line="626" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/angular_components-0.11.0/lib/utils/color/color.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="131" column="11" selection-start-line="131" selection-start-column="6" selection-end-line="131" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_display/feed_display_component.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/data/model.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.pub-cache/hosted/pub.dartlang.org/firebase-5.0.2/lib/src/database.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="319" column="21" selection-start-line="319" selection-start-column="21" selection-end-line="319" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/data/photo_feed.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/data/feed_list.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="73" selection-start-line="38" selection-start-column="73" selection-end-line="38" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/src/service/feed_service.dart">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="83" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
@@ -445,144 +672,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/data/model.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/data/photo_feed.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/data/feed_store.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_display/feed_display_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="93" selection-start-line="18" selection-start-column="93" selection-end-line="18" selection-end-column="93" />
+        <state relative-caret-position="495">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/favicon.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/todo_list/todo_list_component.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.html">
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.dart">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        <state relative-caret-position="495">
+          <caret line="33" column="74" lean-forward="true" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_display/feed_display_component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/main.dart">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app_component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_component.html">
+    <entry file="file://$PROJECT_DIR$/lib/src/feed_list/feed_list_item_component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.dart">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_display/feed_display_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#li#0;n#ul#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/src/feed_slideshow/feed_slideshow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app_component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="119" selection-start-line="10" selection-start-column="119" selection-end-line="10" selection-end-column="119" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/app_component.dart">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="360">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>

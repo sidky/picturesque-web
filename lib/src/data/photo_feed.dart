@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:firebase/firebase.dart';
+import 'package:picturesque_web/src/data/feed_list.dart';
 import 'package:picturesque_web/src/data/feed_store.dart';
 import 'package:picturesque_web/src/data/model.dart';
 

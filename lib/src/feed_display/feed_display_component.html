@@ -1,11 +1,16 @@
 <div class="feed-display">
     <h3 class="display-content">{{title}}</h3>
+    <div class="display-content" style="font-style: italic">{{updatedAt}}</div>
+    <a class="display-content" style="font-size: 10pt" href="{{url}}">
+        {{url}}
+        <i class="material-icons" style="font-size: 10pt; align-content: baseline">open_in_new</i>
+    </a>
     <p class="display-content">{{subHeader}}</p>
 
     <ul>
-        <li *ngFor="let image of images" class="display-content">
+        <li *ngFor="let image of images; let i = index" class="display-content">
             <div>
-                <img src="{{image.url}}"/>
+                <img src="{{image.url}}" (click)="openSlideShow(i)"/>
             </div>
             <div>
                 <p class="caption">{{image.caption}}</p>

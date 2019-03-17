@@ -26,7 +26,7 @@ class Feed {
   factory Feed.fromMap(String id, String feedName, Map values) {
     var title = values['title'];
     var subHeader = values['subheader'];
-    var updated = DateTime.fromMillisecondsSinceEpoch(values['updated']);
+    var updated = DateTime.fromMillisecondsSinceEpoch(values['updated'] * 1000);
     var url = values['url'];
 
     var feedImages = List<FeedImage>();
@@ -41,4 +41,11 @@ class Feed {
 
     return Feed(feedName, id, title, subHeader, url, updated, feedImages);
   }
+}
+
+class FeedImageSelection {
+  final Feed feed;
+  final int index;
+
+  FeedImageSelection(this.feed, this.index);
 }
